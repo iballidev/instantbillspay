@@ -5,9 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass src/stylesheets/sass/main.scss  src/stylesheets/main.css --watch"
+    "sass": "sass src/stylesheets/sass/main.scss  src/stylesheets/main.css --watch",
+    "tailwind": "npx tailwindcss -i src/stylesheets/tailwindcss/input.css -o src/stylesheets/tailwindcss/output.css --watch"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
 }
