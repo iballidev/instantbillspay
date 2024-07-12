@@ -621,6 +621,14 @@ video {
   inset-inline-end: 0px;
 }
 
+.left-0 {
+  left: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -631,6 +639,10 @@ video {
 
 .col-span-12 {
   grid-column: span 12 / span 12;
+}
+
+.col-span-6 {
+  grid-column: span 6 / span 6;
 }
 
 .mx-auto {
@@ -694,6 +706,14 @@ video {
   height: 2rem;
 }
 
+.h-full {
+  height: 100%;
+}
+
+.min-h-\[120px\] {
+  min-height: 120px;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -710,6 +730,10 @@ video {
   width: 0.625rem;
 }
 
+.w-40 {
+  width: 10rem;
+}
+
 .w-44 {
   width: 11rem;
 }
@@ -720,14 +744,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-32 {
-  width: 8rem;
-}
-
-.w-40 {
-  width: 10rem;
 }
 
 .max-w-screen-xl {
@@ -756,6 +772,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-16 {
+  gap: 4rem;
 }
 
 .gap-2 {
@@ -806,20 +826,16 @@ video {
   border-radius: 0.25rem;
 }
 
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
 
 .rounded-lg {
   border-radius: 0.5rem;
-}
-
-.rounded-xl {
-  border-radius: 0.75rem;
-}
-
-.rounded-2xl {
-  border-radius: 1rem;
 }
 
 .rounded-l-full {
@@ -844,6 +860,10 @@ video {
   border-bottom-width: 2px;
 }
 
+.bg-black\/75 {
+  background-color: rgb(10 9 9 / 0.75);
+}
+
 .bg-theme-clr-primary {
   --tw-bg-opacity: 1;
   background-color: hsl(var(--theme-clr-primary) / var(--tw-bg-opacity));
@@ -854,20 +874,12 @@ video {
   background-color: hsl(var(--theme-clr-primary-alt) / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(https\:\/\/lr\.instantbillspay\.com\/assets\/commonnewer\/img\/logo\.png\)\] {
-  background-image: url(https://lr.instantbillspay.com/assets/commonnewer/img/logo.png);
-}
-
 .bg-\[url\(\'https\:\/\/lr\.instantbillspay\.com\/assets\/commonnewer\/img\/logo\.png\'\)\] {
   background-image: url('https://lr.instantbillspay.com/assets/commonnewer/img/logo.png');
 }
 
 .bg-contain {
   background-size: contain;
-}
-
-.bg-\[180px\] {
-  background-position: 180px;
 }
 
 .bg-no-repeat {
@@ -939,18 +951,6 @@ video {
   text-align: center;
 }
 
-.-indent-3 {
-  text-indent: -0.75rem;
-}
-
-.-indent-3\.5 {
-  text-indent: -0.875rem;
-}
-
-.-indent-\[1000000000\] {
-  text-indent: -1000000000;
-}
-
 .-indent-\[1000000000px\] {
   text-indent: -1000000000px;
 }
@@ -994,10 +994,6 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.hover\:font-semibold:hover {
-  font-weight: 600;
-}
-
 .focus\:border-2:focus {
   border-width: 2px;
 }
@@ -1016,6 +1012,12 @@ video {
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+@media (min-width: 640px) {
+  .sm\:col-span-4 {
+    grid-column: span 4 / span 4;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1057,6 +1059,12 @@ video {
     margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
+  .md\:space-y-4 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+  }
+
   .md\:border-0 {
     border-width: 0px;
   }
@@ -1069,13 +1077,13 @@ video {
     --tw-text-opacity: 1;
     color: hsl(var(--on-theme-clr-primary) / var(--tw-text-opacity));
   }
-
-  .md\:hover\:font-semibold:hover {
-    font-weight: 600;
-  }
 }
 
 @media (min-width: 1024px) {
+  .lg\:col-span-3 {
+    grid-column: span 3 / span 3;
+  }
+
   .lg\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;

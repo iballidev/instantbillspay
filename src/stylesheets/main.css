@@ -17,6 +17,7 @@
     --on-theme-clr-primary: 0deg 0% 100%;
     /* ... */
   }
+
   @media (prefers-color-scheme: dark) {
     :root {
       /* PRIMARY COLOR DARK MODE*/
@@ -41,17 +42,26 @@
   --ff-body: var(--ff-primary);
   --ff-heading: var(--ff-primary);
   /* FONT SIZES */
-  --fs-50: 0.81rem; /*13px*/
-  --fs-100: 0.88rem; /*14px*/
-  --fs-150: 0.94rem; /*15px*/
-  --fs-200: 1rem; /*16px*/
-  --fs-300: 1.38rem; /*22px*/
-  --fs-400: 1.56rem; /*25px*/
-  --fs-500: 2.5rem; /*40px*/
-  --fs-600: 4.38rem; /*70px*/
+  --fs-50: 0.81rem;
+  /*13px*/
+  --fs-100: 0.88rem;
+  /*14px*/
+  --fs-150: 0.94rem;
+  /*15px*/
+  --fs-200: 1rem;
+  /*16px*/
+  --fs-300: 1.38rem;
+  /*22px*/
+  --fs-400: 1.56rem;
+  /*25px*/
+  --fs-500: 2.5rem;
+  /*40px*/
+  --fs-600: 4.38rem;
+  /*70px*/
   /* SIZES */
   --size-200: 0.2rem;
-  --size-250: 0.313rem; /* 5px */
+  --size-250: 0.313rem;
+  /* 5px */
   --size-300: 0.5rem;
   --size-400: 1rem;
   --size-500: 1.5rem;
@@ -135,6 +145,18 @@ html {
 /* 'before' pseudo element style */
 /* 'after' pseudo element style */
 /* padding-block size */
+.brand-link-card .floater {
+  top: 2em;
+  bottom: 0;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 320ms ease-in;
+}
+.brand-link-card:hover .floater {
+  transform: scaleY(1);
+  transition: transform 320ms ease-out;
+}
+
 .base-text {
   color: var(--clr-base-text);
 }
