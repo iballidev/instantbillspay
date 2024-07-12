@@ -649,6 +649,10 @@ video {
   z-index: 10;
 }
 
+.z-50 {
+  z-index: 50;
+}
+
 .col-span-12 {
   grid-column: span 12 / span 12;
 }
@@ -740,6 +744,10 @@ video {
 
 .min-h-\[120px\] {
   min-height: 120px;
+}
+
+.min-h-64 {
+  min-height: 16rem;
 }
 
 .w-10 {
@@ -838,6 +846,10 @@ video {
 
 .self-center {
   align-self: center;
+}
+
+.overflow-auto {
+  overflow: auto;
 }
 
 .overflow-hidden {
