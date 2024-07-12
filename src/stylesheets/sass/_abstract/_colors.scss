@@ -1,0 +1,19 @@
+@layer base {
+  :root {
+    // INITIALIZE
+
+    /* PRIMARY COLOR */
+    --clr-primary: hsl(349, 100%, 35%); //#b00020;
+    --clr-primary-alt: hsl(1, 79%, 54%); //#e62f2d;
+    
+    --clr-base-text: var(--clr-gray-500); //#1B3513;
+
+    --clr-gray-200: hsl(0, 0%, 96%); // #F4F4F4;
+    --clr-gray-300: hsl(0, 0%, 83%); // #D4D4D4;
+    --clr-gray-400: hsl(0, 0%, 74%); // #BDBDBD;
+    --clr-gray-500: hsl(0, 0%, 40%); // #666666;
+    /**/
+
+    /* ... */
+  }
+}
