@@ -1,2 +1,8 @@
 @use "./_abstract";
 @use "./_partials";
+@use "./_components";
+
+
+body{
+    background-color: var(--clr-primary);
+}
