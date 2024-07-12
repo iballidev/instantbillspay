@@ -22,23 +22,35 @@
                     </a>
                     <a href="?tab=2" class="base-text tab-link bg-white | flex items-center gap-2 uppercase text-white rounded-l-full rounded-r-full font-medium text-sm">
                         <span class="| flex items-center justify-center rounded-full h-14 w-14">
+                            <i class="fas fa-tv"></i>
+                        </span>
+                        TV/Cable
+                    </a>
+                    <a href="?tab=3" class="base-text tab-link bg-white | flex items-center gap-2 uppercase text-white rounded-l-full rounded-r-full font-medium text-sm">
+                        <span class="| flex items-center justify-center rounded-full h-14 w-14">
                             <i class="far fa-lightbulb"></i>
                         </span>
                         Utilities
                     </a>
-                    <a href="?tab=2" class="base-text tab-link bg-white | flex items-center gap-2 uppercase text-white rounded-l-full rounded-r-full font-medium text-sm">
+                    <a href="?tab=4" class="base-text tab-link bg-white | flex items-center gap-2 uppercase text-white rounded-l-full rounded-r-full font-medium text-sm">
                         <span class="| flex items-center justify-center rounded-full h-14 w-14">
                             <i class="fas fa-plane"></i>
                         </span>
                         Travels
                     </a>
-                    <a href="?tab=2" class="base-text tab-link bg-white | flex items-center gap-2 uppercase text-white rounded-l-full rounded-r-full font-medium text-sm">
+                    <a href="?tab=5" class="base-text tab-link bg-white | flex items-center gap-2 uppercase text-white rounded-l-full rounded-r-full font-medium text-sm">
                         <span class="| flex items-center justify-center rounded-full h-14 w-14">
                             <i class="fas fa-graduation-cap"></i>
                         </span>
                         Schools
                     </a>
-                    <a href="?tab=2" class="base-text tab-link bg-white | flex items-center gap-2 uppercase text-white rounded-l-full rounded-r-full font-medium text-sm">
+                    <a href="?tab=6" class="base-text tab-link bg-white | flex items-center gap-2 uppercase text-white rounded-l-full rounded-r-full font-medium text-sm">
+                        <span class="| flex items-center justify-center rounded-full h-14 w-14">
+                            <i class="fas fa-lightbulb"></i>
+                        </span>
+                        Micro Pension
+                    </a>
+                    <a href="?tab=7" class="base-text tab-link bg-white | flex items-center gap-2 uppercase text-white rounded-l-full rounded-r-full font-medium text-sm">
                         <span class="| flex items-center justify-center rounded-full h-14 w-14">
                             <i class="fas fa-arrow-up"></i>
                         </span>
@@ -62,35 +74,28 @@
         </div> -->
                     <div id="tab-contents">
                         <div id="tab1" class="tab-content p-4 hidden">
-                            <p>Content for Tab 1</p>
+                            <?php include(__DIR__ . "./views/mobile-toll-e-top-up.php") ?>
                         </div>
                         <div id="tab2" class="tab-content p-4 hidden">
-                            <p>Content for Tab 2</p>
+                            <?php include(__DIR__ . "./views/tv-cable.php") ?>
                         </div>
                         <div id="tab3" class="tab-content p-4 hidden">
-                            <p>Content for Tab 3</p>
+                            <?php include(__DIR__ . "./views/utilities.php") ?>
                         </div>
                         <div id="tab4" class="tab-content p-4 hidden">
-                            <p>Content for Tab 4</p>
+                            <?php include(__DIR__ . "./views/travels.php") ?>
+                        </div>
+                        <div id="tab5" class="tab-content p-4 hidden">
+                            <?php include(__DIR__ . "./views/schools.php") ?>
+                        </div>
+                        <div id="tab6" class="tab-content p-4 hidden">
+                            <?php include(__DIR__ . "./views/micro-pension.php") ?>
+                        </div>
+                        <div id="tab7" class="tab-content p-4 hidden">
+                            <?php include(__DIR__ . "./views/all-billers.php") ?>
                         </div>
                     </div>
                 </div>
-
-
-
-                <script>
-                    // Get URL parameters
-                    const urlParams = new URLSearchParams(window.location.search);
-                    const tab = urlParams.get('tab') || '1';
-
-                    // Hide all tab contents and remove active classes from all tab links
-                    document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
-                    document.querySelectorAll('.tab-link').forEach(el => el.classList.remove('border-blue-500', 'text-blue-500'));
-
-                    // Show the active tab content and add active class to the corresponding tab link
-                    document.querySelector(`#tab${tab}`).classList.remove('hidden');
-                    document.querySelector(`#tabs-nav a[href="?tab=${tab}"]`).classList.add('border-blue-500', 'text-blue-500');
-                </script>
             </div>
 
         </div>
@@ -105,6 +110,23 @@
 <!-- feather-icon -->
 <script>
     feather.replace();
+</script>
+
+
+
+
+<script>
+    // Get URL parameters
+    const urlParams = new URLSearchParams(window.location.search);
+    const tab = urlParams.get('tab') || '1';
+
+    // Hide all tab contents and remove active classes from all tab links
+    document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+    document.querySelectorAll('.tab-link').forEach(el => el.classList.remove('border-blue-500', 'text-blue-500'));
+
+    // Show the active tab content and add active class to the corresponding tab link
+    document.querySelector(`#tab${tab}`).classList.remove('hidden');
+    document.querySelector(`#tabs-nav a[href="?tab=${tab}"]`).classList.add('border-blue-500', 'text-blue-500');
 </script>
 </body>
 

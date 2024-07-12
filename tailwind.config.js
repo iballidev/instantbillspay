@@ -9,7 +9,8 @@ module.exports = {
       // },
       "theme-clr-primary": 'hsl(var(--theme-clr-primary) / <alpha-value>)',
       "theme-clr-primary-alt": 'hsl(var(--theme-clr-primary-alt) / <alpha-value>)',
-      "on-theme-clr-primary": 'hsl(var(--on-theme-clr-primary) / <alpha-value>)'
+      "on-theme-clr-primary": 'hsl(var(--on-theme-clr-primary) / <alpha-value>)',
+      "black": '#0a0909'
     }
   },
   plugins: [],

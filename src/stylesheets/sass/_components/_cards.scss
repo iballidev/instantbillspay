@@ -1,0 +1,16 @@
+.brand-link-card {
+    .floater {
+        top: 2em;
+        bottom: 0;
+        transform: scaleY(0);
+        transform-origin: bottom;
+        transition: transform 320ms ease-in;
+    }
+
+    &:hover {
+        .floater {
+            transform: scaleY(1);
+            transition: transform 320ms ease-out;
+        }
+    }
+}
