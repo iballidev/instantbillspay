@@ -9,10 +9,10 @@
 <div class="max-w-screen-xl mx-auto p-4 lg:py-8">
 
     <div class="grid grid-cols-12 gap-8">
-        <div class="col-span-12 md:col-span-4">
+        <div class="col-span-12 md:col-span-3">
             Sidenav
         </div>
-        <div class="col-span-12 md:col-span-8">
+        <div class="col-span-12 md:col-span-9">
             Main
         </div>
     </div>
