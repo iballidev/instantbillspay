@@ -9,7 +9,7 @@
 <div class="max-w-screen-xl mx-auto p-4 lg:py-8">
 
     <div class="grid grid-cols-12 gap-4 md:gap-8">
-        <div class="hidden md:block | col-span-12 md:col-span-3 fixed md:relative top-0 bottom-0 left-0 right-0 z-10 px-4 py-8 bg-black/50 md:bg-transparent md:px-0 md:py-0">
+        <div class="sidenav hidden md:block | col-span-12 md:col-span-3 fixed md:relative top-0 bottom-0 left-0 right-0 z-10 px-4 py-8 bg-black/50 md:bg-transparent md:px-0 md:py-0">
             <!-- Sidenav -->
 
             <div class="">
@@ -60,7 +60,7 @@
             </div>
         </div>
         <div class="col-span-12 md:col-span-9">
-            <button class="md:hidden w-8 h-8 border border-theme-clr-primary text-theme-clr-primary rounded-lg mb-2">
+            <button id="sidenav-btn" class="md:hidden w-8 h-8 border border-theme-clr-primary text-theme-clr-primary rounded-lg mb-2">
                 <i class="fas fa-caret-left"></i>
             </button>
             <div class="bg-gray-100 p-2 md:p-6 rounded-2xl">

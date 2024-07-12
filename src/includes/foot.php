@@ -19,6 +19,7 @@
     document.querySelector(`#tab${tab}`).classList.remove('hidden');
     document.querySelector(`#tabs-nav a[href="?tab=${tab}"]`).classList.add('border-blue-500', 'text-blue-500');
 </script>
+<script src="./scripts/index.js"></script>
 </body>
 
 </html>
