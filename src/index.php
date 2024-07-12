@@ -16,7 +16,7 @@
                 <nav class="flex flex-col space-y-4" id="tabs-nav">
                     <a href="?tab=1" class="tab-link bg-theme-clr-primary-alt | flex items-center gap-2 uppercase text-white rounded-l-full rounded-r-full font-medium text-sm">
                         <span class="bg-theme-clr-primary | flex items-center justify-center rounded-full h-14 w-14">
-                        <i class="fas fa-phone"></i>
+                        <i class="fas fa-mobile-alt"></i>
                         </span>
                         Mobile/Toll E-TopUp
                     </a>
