@@ -1,9 +1,11 @@
 
 <nav class="bg-theme-clr-primary border-gray-200 dark:bg-gray-900">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 lg:py-8">
-            <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
-                <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+            <a href="/index.php" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <!-- <img src="https://lr.instantbillspay.com/assets/commonnewer/img/logo.png" class="h-8" alt="Instant Bills Pay Logo" /> -->
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white -indent-[1000000000px] | block h-8 w-40 bg-contain bg-no-repeat bg-[url('https://lr.instantbillspay.com/assets/commonnewer/img/logo.png')]">
+                    Instant Bills Pay
+                </span>
             </a>
             <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
                 <span class="sr-only">Open main menu</span>
@@ -14,7 +16,7 @@
             <div class="hidden w-full md:block md:w-auto" id="navbar-default">
                 <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:items-center md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                     <li>
-                        <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-sm text-center inline-flex items-center" type="button">
+                        <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-sm text-center text-on-theme-clr-primary inline-flex items-center" type="button">
                             Select Country
                             <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
@@ -53,7 +55,7 @@
 
                     </li>
                     <li>
-                        <a href="#" class="block py-2 px-3 text-gray-900 md:text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:font-semibold hover:font-semibold md:p-0">
+                        <a href="#" class="block py-2 px-3 text-gray-900 md:text-on-theme-clr-primary rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0">
                             Login/Register
                         </a>
                     </li>

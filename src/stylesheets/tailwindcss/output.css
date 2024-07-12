@@ -460,6 +460,7 @@ video {
   /* ... */
   /* THEMING */
   --theme-clr-primary: 349deg 100% 35%;
+  --theme-clr-primary-alt: 1deg 79% 54%;
   --on-theme-clr-primary: 0deg 0% 100%;
   /* ... */
 }
@@ -673,6 +674,10 @@ video {
   height: 2.5rem;
 }
 
+.h-14 {
+  height: 3.5rem;
+}
+
 .h-2 {
   height: 0.5rem;
 }
@@ -693,6 +698,10 @@ video {
   width: 2.5rem;
 }
 
+.w-14 {
+  width: 3.5rem;
+}
+
 .w-2 {
   width: 0.5rem;
 }
@@ -711,6 +720,14 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
+.w-40 {
+  width: 10rem;
 }
 
 .max-w-screen-xl {
@@ -741,6 +758,10 @@ video {
   justify-content: space-between;
 }
 
+.gap-2 {
+  gap: 0.5rem;
+}
+
 .gap-8 {
   gap: 2rem;
 }
@@ -755,6 +776,12 @@ video {
   --tw-space-x-reverse: 0;
   margin-right: calc(1rem * var(--tw-space-x-reverse));
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
 .divide-y > :not([hidden]) ~ :not([hidden]) {
@@ -779,8 +806,20 @@ video {
   border-radius: 0.25rem;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
 }
 
 .rounded-l-full {
@@ -808,6 +847,31 @@ video {
 .bg-theme-clr-primary {
   --tw-bg-opacity: 1;
   background-color: hsl(var(--theme-clr-primary) / var(--tw-bg-opacity));
+}
+
+.bg-theme-clr-primary-alt {
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--theme-clr-primary-alt) / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(https\:\/\/lr\.instantbillspay\.com\/assets\/commonnewer\/img\/logo\.png\)\] {
+  background-image: url(https://lr.instantbillspay.com/assets/commonnewer/img/logo.png);
+}
+
+.bg-\[url\(\'https\:\/\/lr\.instantbillspay\.com\/assets\/commonnewer\/img\/logo\.png\'\)\] {
+  background-image: url('https://lr.instantbillspay.com/assets/commonnewer/img/logo.png');
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-\[180px\] {
+  background-position: 180px;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .p-2 {
@@ -875,6 +939,22 @@ video {
   text-align: center;
 }
 
+.-indent-3 {
+  text-indent: -0.75rem;
+}
+
+.-indent-3\.5 {
+  text-indent: -0.875rem;
+}
+
+.-indent-\[1000000000\] {
+  text-indent: -1000000000;
+}
+
+.-indent-\[1000000000px\] {
+  text-indent: -1000000000px;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -891,6 +971,15 @@ video {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-on-theme-clr-primary {
+  --tw-text-opacity: 1;
+  color: hsl(var(--on-theme-clr-primary) / var(--tw-text-opacity));
 }
 
 .shadow {
@@ -930,14 +1019,6 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:col-span-4 {
-    grid-column: span 4 / span 4;
-  }
-
-  .md\:col-span-8 {
-    grid-column: span 8 / span 8;
-  }
-
   .md\:col-span-3 {
     grid-column: span 3 / span 3;
   }
@@ -982,6 +1063,11 @@ video {
 
   .md\:p-0 {
     padding: 0px;
+  }
+
+  .md\:text-on-theme-clr-primary {
+    --tw-text-opacity: 1;
+    color: hsl(var(--on-theme-clr-primary) / var(--tw-text-opacity));
   }
 
   .md\:hover\:font-semibold:hover {
