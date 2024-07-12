@@ -1,5 +1,5 @@
 <!-- <p> Mobile/Toll E-TopUp</p> -->
-<ul class="grid grid-cols-12 gap-16 p-4">
+<ul class="grid grid-cols-12 gap-4 lg:gap-16 p-4">
     <li class="col-span-6 sm:col-span-4 lg:col-span-3">
         <a href="#" class="block h-full">
             <div class="brand-link-card | relative overflow-hidden p-4 rounded-2xl bg-white border border-gray-300 h-full min-h-[120px]">
