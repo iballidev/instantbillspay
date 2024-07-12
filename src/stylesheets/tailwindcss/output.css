@@ -726,6 +726,10 @@ video {
   height: 100%;
 }
 
+.h-32 {
+  height: 8rem;
+}
+
 .max-h-40 {
   max-height: 10rem;
 }
@@ -901,6 +905,16 @@ video {
   background-color: hsl(var(--theme-clr-primary-alt) / var(--tw-bg-opacity));
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(10 9 9 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#192223\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(25 34 35 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'https\:\/\/lr\.instantbillspay\.com\/assets\/commonnewer\/img\/logo\.png\'\)\] {
   background-image: url('https://lr.instantbillspay.com/assets/commonnewer/img/logo.png');
 }
@@ -969,6 +983,14 @@ video {
   padding-inline-start: 0.875rem;
 }
 
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1030,6 +1052,11 @@ video {
   border-color: hsl(var(--theme-clr-primary) / var(--tw-border-opacity));
 }
 
+.focus\:text-black:focus {
+  --tw-text-opacity: 1;
+  color: rgb(10 9 9 / var(--tw-text-opacity));
+}
+
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -1074,6 +1101,10 @@ video {
 
   .md\:w-auto {
     width: auto;
+  }
+
+  .md\:w-44 {
+    width: 11rem;
   }
 
   .md\:flex-row {

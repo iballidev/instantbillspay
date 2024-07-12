@@ -27,7 +27,7 @@
                     </button>
 
                     <!-- Dropdown menu -->
-                    <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+                    <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow md:w-44 dark:bg-gray-700">
                         <ul class="max-h-40 overflow-y-auto py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
 
                             <li>
@@ -119,7 +119,7 @@
 
                 </li>
                 <li>
-                    <a href="#" class="block py-2 px-3 text-gray-900 text-on-theme-clr-primary rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0">
+                    <a href="#" class="block py-2 px-3 text-on-theme-clr-primary md:hover:bg-transparent md:border-0 md:p-0">
                         Login/Register
                     </a>
                 </li>
