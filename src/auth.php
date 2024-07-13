@@ -24,6 +24,9 @@
                             <div id="tab2" class="tab-content p-4 hidden">
                                 <?php include(__DIR__ . "./views/register.php") ?>
                             </div>
+                            <div id="tab3" class="tab-content p-4 hidden">
+                                <?php include(__DIR__ . "./views/forgot-password.php") ?>
+                            </div>
                         </div>
                     </div>
                 </div>
