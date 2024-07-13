@@ -123,10 +123,12 @@
                         </li>
                         <li>
                             <div class="flex items-center">
+                                <!-- toggle 'hidden' class -->
                                 <a href="#" class="block py-2 md:px-3 text-on-theme-clr-primary md:hover:bg-transparent md:border-0 md:p-0">
                                     Login/Register
                                 </a>
-                                <div>
+                                <!-- toggle 'hidden' class -->
+                                <div class="">
                                     <button id="profile-dropdown-button" data-dropdown-toggle="user-profile-dropdown" class="py-2 text-center text-on-theme-clr-primary inline-flex items-center" type="button">
                                         <div class="flex items-center gap-2 whitespace-nowrap">Hi Ibrahim! </div>
                                         <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">

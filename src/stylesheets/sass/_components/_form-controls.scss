@@ -1,0 +1,11 @@
+label {
+    &.required {
+      display: flex;
+      gap: 2px;
+      &:after {
+        content: "*";
+        color: red;
+        display: block;
+      }
+    }
+  }

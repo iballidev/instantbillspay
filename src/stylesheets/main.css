@@ -193,6 +193,16 @@ html {
   background: #b30000;
 }
 
+label.required {
+  display: flex;
+  gap: 2px;
+}
+label.required:after {
+  content: "*";
+  color: red;
+  display: block;
+}
+
 .loader {
   width: 50px;
   aspect-ratio: 1;
