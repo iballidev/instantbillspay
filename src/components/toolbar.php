@@ -1,5 +1,5 @@
 <nav class="bg-theme-clr-primary border-gray-200 dark:bg-gray-900">
-    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 lg:py-8">
+    <div class="mg-main-container flex flex-wrap items-center justify-between mx-auto p-4 lg:py-8">
         <a href="/index.php" class="flex items-center space-x-3 rtl:space-x-reverse">
             <!-- <img src="https://lr.instantbillspay.com/assets/commonnewer/img/logo.png" class="h-8" alt="Instant Bills Pay Logo" /> -->
             <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white -indent-[1000000000px] | block h-8 w-40 bg-contain bg-no-repeat bg-[url('https://lr.instantbillspay.com/assets/commonnewer/img/logo.png')]">
@@ -110,8 +110,8 @@
 
                     <form>
                         <div class="relative rounded-l-full rounded-r-full overflow-hidden">
-                            <input type="text" class="relative z-0 bg-theme-clr-white text-on-theme-clr-white text-sm rounded-lg focus:border-theme-clr-primary block w-full pe-10 p-2.5" placeholder="Search Services like MTN, DSTV...">
-                            <button class="absolute z-10 inset-y-0 end-0 flex items-center ps-3.5 pe-3.5 bg-primary focus:ring-primary-alt focus:border-2 focus:border-primary-alt">
+                            <input type="text" class="w-[120px] hover:w-[150px] focus:w-[220px] transition-all delay-150 ease-in-out relative z-0 bg-theme-clr-white text-on-theme-clr-white text-sm rounded-lg focus:border-theme-clr-primary block pe-10 p-2.5" placeholder="Search Services like MTN, DSTV...">
+                            <button class="absolute z-10 inset-y-0 end-0 flex items-center ps-3.5 pe-3.5 bg-primary">
                                 <i data-feather="search" class="text-on-theme-clr-white" style="width: 20px"></i>
                             </button>
                         </div>

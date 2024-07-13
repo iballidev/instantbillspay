@@ -1,0 +1,13 @@
+@use "../_partials/mixins";
+
+@include mixins.maxmq(768px) {
+    .sidenav {
+        width: 100%;
+        left: 0;
+        transition: left 250ms ease-in;
+        &.hide {
+            left: -100%;
+            transition: left 250ms ease-out;
+        }
+    }
+}
