@@ -1,0 +1,38 @@
+@use "../_partials/mixins";
+
+.custom-check {
+  input[type="checkbox"] {
+    position: absolute;
+    left: -1000000000px;
+    & + label {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      .fake-box {
+        height: 17px;
+        width: 17px;
+        min-height: 17px;
+        min-width: 17px;
+        border-radius: 3px;
+        border: 1px solid rgb(209, 213, 219);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    &:checked {
+      & + label {
+        .fake-box {
+          outline: var(--theme-clr-primary);
+          box-shadow: var(--clr-primary);
+          background-color: var(--clr-primary);
+          &::before {
+            @include mixins.before("\f00c", inherit);
+            color: #FFFFFF;
+            font-size: .75rem;
+          }
+        }
+      }
+    }
+  }
+}

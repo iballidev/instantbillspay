@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instant Bills Pay</title>
+    <!-- favicon -->
+    <link rel="icon" href="https://ng.instantbillspay.com/assets/commonnewer/img/fav.png">
     <!-- flowbite -->
     <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css" rel="stylesheet" />
     <!-- fontawesome -->
@@ -15,6 +17,8 @@
     <link rel="stylesheet" href="./stylesheets/main.css">
     <!-- feather-icons -->
     <script src="https://unpkg.com/feather-icons"></script>
+        <!-- Animate.CSS 4.1.1 -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 
 <body>
