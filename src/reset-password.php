@@ -7,8 +7,8 @@
     <div class="mg-main-container p-4 lg:py-8">
         <div class="grid grid-cols-12 gap-4 md:gap-8">
             <div class="col-span-12 md:col-span-5">
-                <h1 class="text-2xl font-bold">Set New Password</h1>
-                <p class="text-lg font-semibold">Enter your new password. Minimum is 6 characters.
+                <h1 class="text-2xl font-bold text-black">Set New Password</h1>
+                <p class="text-lg font-semibold text-black">Enter your new password. Minimum is 6 characters.
                     Ensure your password is kept safe.</p>
             </div>
             <div class="col-span-12 md:col-span-7">
@@ -19,11 +19,11 @@
                             <div class="grid grid-cols-12 gap-4 mb-4">
 
                                 <div class="col-span-12">
-                                    <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white required">Password</label>
+                                    <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white required">New Password</label>
                                     <input type="password" id="password" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
                                 </div>
                                 <div class="col-span-12">
-                                    <label for="confirm_password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white required">Confirm Password</label>
+                                    <label for="confirm_password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white required">Confirm New Password</label>
                                     <input type="password" id="confirm_password" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
                                 </div>
 
