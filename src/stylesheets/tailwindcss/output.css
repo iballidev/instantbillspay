@@ -975,6 +975,11 @@ video {
   background-color: rgb(10 9 9 / 0.75);
 }
 
+.bg-on-theme-clr-primary {
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--on-theme-clr-primary) / var(--tw-bg-opacity));
+}
+
 .bg-theme-clr-primary {
   --tw-bg-opacity: 1;
   background-color: hsl(var(--theme-clr-primary) / var(--tw-bg-opacity));
@@ -983,11 +988,6 @@ video {
 .bg-theme-clr-primary-alt {
   --tw-bg-opacity: 1;
   background-color: hsl(var(--theme-clr-primary-alt) / var(--tw-bg-opacity));
-}
-
-.bg-on-theme-clr-primary {
-  --tw-bg-opacity: 1;
-  background-color: hsl(var(--on-theme-clr-primary) / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'https\:\/\/lr\.instantbillspay\.com\/assets\/commonnewer\/img\/logo\.png\'\)\] {
@@ -1234,8 +1234,16 @@ video {
     position: relative;
   }
 
+  .md\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
   .md\:col-span-3 {
     grid-column: span 3 / span 3;
+  }
+
+  .md\:col-span-4 {
+    grid-column: span 4 / span 4;
   }
 
   .md\:col-span-5 {
@@ -1252,14 +1260,6 @@ video {
 
   .md\:col-span-9 {
     grid-column: span 9 / span 9;
-  }
-
-  .md\:col-span-2 {
-    grid-column: span 2 / span 2;
-  }
-
-  .md\:col-span-4 {
-    grid-column: span 4 / span 4;
   }
 
   .md\:mt-0 {
@@ -1320,12 +1320,12 @@ video {
     padding: 0px;
   }
 
-  .md\:p-6 {
-    padding: 1.5rem;
-  }
-
   .md\:p-4 {
     padding: 1rem;
+  }
+
+  .md\:p-6 {
+    padding: 1.5rem;
   }
 
   .md\:px-0 {
