@@ -163,7 +163,8 @@ html {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 0.25rem;
+  height: 0.25rem;
 }
 
 /* Track */

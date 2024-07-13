@@ -12,15 +12,9 @@
         </a>
         <a href="?tab=2" class="base-text tab-link bg-white | flex items-center gap-2 uppercase text-white rounded-l-full rounded-r-full font-medium text-sm">
             <span class="| flex items-center justify-center rounded-full h-14 w-14">
-                <i class="fas fa-cog"></i>
+                <i class="fas fa-handshake"></i>
             </span>
             Transactions
-        </a>
-        <a href="?tab=3" class="base-text tab-link bg-white | flex items-center gap-2 uppercase text-white rounded-l-full rounded-r-full font-medium text-sm">
-            <span class="| flex items-center justify-center rounded-full h-14 w-14">
-                <i class="fas fa-cog"></i>
-            </span>
-            Settings
         </a>
     </nav>
 </div>

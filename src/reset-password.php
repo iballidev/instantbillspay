@@ -1,10 +1,10 @@
 <!-- head -->
-<?php include(__DIR__ . "./includes/head.php"); ?>
+<?php include("./includes/head.php"); ?>
 <div>
     <!-- toolbar -->
-    <?php include(__DIR__ . "./components/toolbar.php"); ?>
+    <?php include("./components/toolbar.php"); ?>
 
-    <div class="mg-main-container p-4 lg:py-8">
+    <div class="mg-main-container p-2 md:p-4 lg:py-8">
         <div class="grid grid-cols-12 gap-4 md:gap-8">
             <div class="col-span-12 md:col-span-5">
                 <h1 class="text-2xl font-bold text-black">Set New Password</h1>
@@ -44,7 +44,7 @@
 
 
 <!-- footer -->
-<?php include(__DIR__ . "./components/footer.php"); ?>
+<?php include("./components/footer.php"); ?>
 
 <!-- foot -->
-<?php include(__DIR__ . "./includes/foot.php"); ?>
+<?php include("./includes/foot.php"); ?>
