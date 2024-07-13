@@ -903,6 +903,11 @@ video {
   border-color: hsl(var(--theme-clr-primary) / var(--tw-border-opacity));
 }
 
+.border-on-theme-clr-primary {
+  --tw-border-opacity: 1;
+  border-color: hsl(var(--on-theme-clr-primary) / var(--tw-border-opacity));
+}
+
 .bg-black\/50 {
   background-color: rgb(10 9 9 / 0.5);
 }
