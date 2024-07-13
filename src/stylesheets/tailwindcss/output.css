@@ -800,6 +800,10 @@ video {
   width: 100%;
 }
 
+.max-w-sm {
+  max-width: 24rem;
+}
+
 .grid-cols-12 {
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
