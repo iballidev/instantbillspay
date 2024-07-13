@@ -21,6 +21,7 @@
                             <div id="tab1" class="tab-content p-4 hidden">
                                 <?php include(__DIR__ . "./views/profile.php") ?>
                             </div>
+                            
                             <div id="tab2" class="tab-content p-4 hidden">
                                 <?php include(__DIR__ . "./views/transactions.php") ?>
                             </div>
