@@ -22,6 +22,10 @@
                                 <?php include(__DIR__ . "./views/profile.php") ?>
                             </div>
                             <div id="tab2" class="tab-content p-4 hidden">
+                                <?php include(__DIR__ . "./views/transactions.php") ?>
+                            </div>
+                        </div>
+                            <div id="tab3" class="tab-content p-4 hidden">
                                 <?php include(__DIR__ . "./views/settings.php") ?>
                             </div>
                         </div>
