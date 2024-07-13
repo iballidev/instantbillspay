@@ -858,6 +858,10 @@ video {
   white-space: nowrap;
 }
 
+.text-nowrap {
+  text-wrap: nowrap;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
@@ -1110,6 +1114,18 @@ video {
     position: relative;
   }
 
+  .md\:order-1 {
+    order: 1;
+  }
+
+  .md\:order-2 {
+    order: 2;
+  }
+
+  .md\:order-3 {
+    order: 3;
+  }
+
   .md\:col-span-3 {
     grid-column: span 3 / span 3;
   }
@@ -1138,6 +1154,10 @@ video {
     width: auto;
   }
 
+  .md\:w-\[120px\] {
+    width: 120px;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -1150,10 +1170,20 @@ video {
     gap: 2rem;
   }
 
+  .md\:gap-4 {
+    gap: 1rem;
+  }
+
   .md\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(2rem * var(--tw-space-x-reverse));
     margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .md\:space-x-4 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(1rem * var(--tw-space-x-reverse));
+    margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .md\:border-0 {
@@ -1182,8 +1212,21 @@ video {
     padding-bottom: 0px;
   }
 
+  .md\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .md\:hover\:w-\[150px\]:hover {
+    width: 150px;
+  }
+
   .md\:hover\:bg-transparent:hover {
     background-color: transparent;
+  }
+
+  .md\:focus\:w-\[220px\]:focus {
+    width: 220px;
   }
 }
 
