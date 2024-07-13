@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
         handlePageLoader();
         toggleSideNav();
         backHistory();
+        activeSidenavLink();
     }
 
 
@@ -49,6 +50,22 @@ document.addEventListener("DOMContentLoaded", () => {
             })
 
         }
+    }
+
+
+    function activeSidenavLink() {
+
+        // Get URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const tab = urlParams.get('tab') || '1';
+
+        // Hide all tab contents and remove active classes from all tab links
+        document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+        document.querySelectorAll('.tab-link').forEach(el => el.classList.remove('border-blue-500', 'text-blue-500'));
+
+        // Show the active tab content and add active class to the corresponding tab link
+        document.querySelector(`#tab${tab}`).classList.remove('hidden');
+        document.querySelector(`#tabs-nav a[href="?tab=${tab}"]`).classList.add('border-blue-500', 'text-blue-500'); F
     }
 
     /**
