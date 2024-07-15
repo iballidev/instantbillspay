@@ -832,6 +832,14 @@ video {
   width: 100%;
 }
 
+.max-w-9 {
+  max-width: 2.25rem;
+}
+
+.max-w-24 {
+  max-width: 6rem;
+}
+
 .flex-shrink-0 {
   flex-shrink: 0;
 }
@@ -1196,16 +1204,6 @@ video {
 .placeholder\:text-xs::placeholder {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.placeholder\:text-sm::-moz-placeholder {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.placeholder\:text-sm::placeholder {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
 }
 
 .focus\:border-theme-clr-primary:focus {
