@@ -8,7 +8,7 @@
             <span class="bg-theme-clr-primary | flex items-center justify-center rounded-full h-14 w-14">
                 <i class="fas fa-info-circle"></i>
             </span>
-            Startimes tv
+            Startimes Tv
         </a>
         <a href="?id=456" class="base-text tab-link bg-white | flex items-center gap-2 uppercase text-white rounded-l-full rounded-r-full font-medium text-sm">
             <span class="| flex items-center justify-center rounded-full h-14 w-14">
