@@ -64,8 +64,8 @@ document.addEventListener("DOMContentLoaded", () => {
         document.querySelectorAll('.tab-link').forEach(el => el.classList.remove('border-blue-500', 'text-blue-500'));
 
         // Show the active tab content and add active class to the corresponding tab link
-        document.querySelector(`#tab${tab}`).classList.remove('hidden');
-        document.querySelector(`#tabs-nav a[href="?tab=${tab}"]`).classList.add('border-blue-500', 'text-blue-500'); F
+        document.querySelector(`#tab${tab}`)?.classList.remove('hidden');
+        document.querySelector(`#tabs-nav a[href="?tab=${tab}"]`)?.classList.add('border-blue-500', 'text-blue-500');
     }
 
     /**
